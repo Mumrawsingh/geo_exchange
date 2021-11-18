@@ -1,5 +1,6 @@
+
 .navBar {
-    background-color: black;
+    /* background-color: black; */
     overflow: hidden;
 }
 
@@ -13,12 +14,12 @@
     font-size: large;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 2%;
+    padding-left: 3%;
     transition: 1s ease;
     text-align: center;
     text-decoration: none;
-}
+} /*padding % update MSU */
 
 #meet-the-team:hover:after {
     content: url(meet-the-team.png);
@@ -49,6 +50,13 @@
     border-style: double;
 }
 
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+} 
+/*msu*/
+
 #current-globe {
     margin: auto;
     display: block;
@@ -58,6 +66,7 @@
     justify-content: center;
     z-index: -1;  
 }
+
 
 #country-pins {
     text-align: center;
@@ -76,6 +85,8 @@
     margin: 10px;
     border-radius: 5%;
 }
+
+
 
 #return-home {
     cursor: pointer;
@@ -151,6 +162,11 @@
       opacity: 1;
       right: 0;
 }
+
+
+
+
+
 
 #pin-canada {
     height: 30px;
@@ -263,32 +279,58 @@ background-color: rgba(128, 128, 128, 0.5);
 }
 
 #form-box{
-
-    border: solid;
+    position: absolute;
+    border: thinner solid;
     color:silver;
-    border-color:silver;
+    border-color: black;
+    border-radius: 50%;
     padding: 50px;
     margin: 30px;
     float: left;
     text-align: center;
-    top: 400px;
-    left: 700px;
-    width: 300px;
+    top: 50px;
+    left: 10px;
+    width: 200px;
     height: auto;
-    box-shadow: #13f4ef;
     transition: 1s;
     background-color: rgba(128, 128, 128, 0.5);
     }
+    #form-box:hover{
+        border: 3px;
+        border-color: tomato;
+        color: #68FF00;
+        box-shadow: -2px -2px 7px 7px  #FAFF00;
+        
+    } /*MSU*/
+
     #minimize{
+
         position:relative;
         top: 0;;
         left: 0;;
     }
 
+    h1{
+        font-size: x-large;
+    }
+    /*MSU*/
+
     .money-image{
         height: 100px;
         width: auto
     }
-    #card-text{
-        opacity: 100%
-    }
+
+div.cards {
+    position: absolute;
+    border: none;
+    top: 50px;
+    left: 950px;
+    width: 250px;
+    height: 450px;
+    transition: 1s ease-in;
+} /*MSU*/
+div.cards:hover {
+    border: 3px;
+        color:#68FF00;
+        box-shadow: -2px -2px 7px 7px  #FAFF00;
+}
