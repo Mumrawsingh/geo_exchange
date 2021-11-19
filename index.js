@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-
-//NAV BAR
-// const nav1 = document.querySelector('#geo-locator');
-// const nav2 = document.querySelector('#meet-the-team');
-// const nav3 = document.querySelector('#about-this-project');
-// const nav4 = document.querySelector('#more-features');
-
-// nav1.addEventListener("mouseover", () => {
-    
-// })
-=======
->>>>>>> 104ba9d2e50bbe912d520f6c18d872d162ce3130
 //STEPHEN
 let pins = document.getElementsByClassName('pins')
 const returnCurrencyTrigger = document.getElementById('return-currency');
@@ -390,9 +377,6 @@ function aussiePin() {
     }
 }
 
-<<<<<<< HEAD
-=======
 function myFunc() {
     console.log("Hi");
 }
->>>>>>> 104ba9d2e50bbe912d520f6c18d872d162ce3130
